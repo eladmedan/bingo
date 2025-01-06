@@ -7,6 +7,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
+  transition: all 0.5s ease, transform 0.5s ease;
 }
 
 .container {
@@ -14,7 +15,7 @@ body {
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
   gap: 10px;
-  background-color: #f4f4f4;
+  background-color: #f4f4f400;
 }
 .cell {
   display: flex;
