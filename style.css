@@ -90,3 +90,8 @@ input:valid {
 h1 {
   color: blue;
 }
+
+#heart {
+  padding: 20px;
+  font-size: 40px;
+}
