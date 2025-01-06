@@ -16,7 +16,7 @@ body {
   gap: 10px;
   background-color: #f4f4f4;
 }
-.container > div {
+.cell {
   display: flex;
   gap: 4px;
   flex-direction: column;
