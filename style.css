@@ -1,3 +1,10 @@
+.miriam-libre-bingo {
+  font-family: "Miriam Libre", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -8,6 +15,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   transition: all 0.5s ease, transform 0.5s ease;
+  font-family: "Miriam Libre", sans-serif;
 }
 
 .container {
@@ -16,6 +24,7 @@ body {
   grid-template-rows: repeat(3, 100px);
   gap: 10px;
   background-color: #f4f4f400;
+  /* font-family: "Miriam Libre", sans-serif; */
 }
 .cell {
   display: flex;
@@ -29,6 +38,7 @@ body {
   /* border: 2px solid #0000ff; */
   border-radius: 12px;
   padding: 12px;
+  border: 1px white;
 }
 
 .field-subject {
@@ -41,6 +51,7 @@ body {
   font-style: bold;
   font-size: 1.5rem;
   padding: 8px;
+  font-family: "Miriam Libre", sans-serif;
 }
 
 .field {
@@ -50,6 +61,7 @@ body {
   text-align: center;
   color: blue;
   background-color: #f4f4f4;
+  font-family: "Miriam Libre", sans-serif;
 }
 
 input[type="text"]:focus {
