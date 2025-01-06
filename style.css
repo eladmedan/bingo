@@ -81,11 +81,12 @@ input:valid {
   border: 2px blue;
 } */
 
-/* .box {
+.box {
   width: 20px;
   height: 20px;
-  transform: scale(1);
-} */
+  /* transform: scale(1.2); */
+  accent-color: #0000ff;
+}
 
 h1 {
   color: blue;
